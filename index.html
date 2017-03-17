@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
 <body>
-<form action="index2.html" method="GET">
-<div style="text-align: center">
-    <div style="width: 50%; margin: 0 auto; text-align: left">
-      <h1>GWC-Rate and Comment, Team's website.</h1>
-        <font size="12" face="sans-serif">
-            <P>Welcome to Rate and Comment project!!!</p>
-        </font>
-    </div>
-</div>
-</form>
+
+<h1>What Can JavaScript Do?</h1>
+
+<p id="demo">JavaScript can change HTML content.</p>
+<textarea rows="4" cols="50" id="textarea1">
+
+</textarea>
+</br>
+
+<input type="text" name="userInput" id="userInput"><br>
+
+
+<button type="button" onclick="calledFromClick()">Post!</button>
+
+<script>
+function calledFromClick()
+{
+
+var jobValue = document.getElementById('userInput').value
+
+document.getElementById("textarea1").value = document.getElementById("textarea1").value +jobValue
+	
+}
+</script>
 </body>
 </html>
+ 
