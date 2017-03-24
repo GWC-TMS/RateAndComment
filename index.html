@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>What Can JavaScript Do?</h1>
-
-<p id="demo">JavaScript can change HTML content.</p>
-<textarea rows="4" cols="50" id="textarea1">
-
-</textarea>
-</br>
-
-<input type="text" name="userInput" id="userInput"><br>
-
-
-<button type="button" onclick="calledFromClick()">Post!</button>
-
-<script>
-function calledFromClick()
-{
-
-var jobValue = document.getElementById('userInput').value
-
-document.getElementById("textarea1").value = document.getElementById("textarea1").value +jobValue
-	
-}
-</script>
-</body>
-</html>
- 
+<form action="https://jsfiddle.net/A_Girl/2g129huz" method="POST">
+  Username:<br>
+  <input type="text" name="username"><br>
+  Password:<br>
+  <input type="password" name="password"><br>
+  <input type="submit" value="Submit">
+</form>
