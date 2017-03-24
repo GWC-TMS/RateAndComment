@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+
+<h1>Rate It!</h1>
+
+<p id="demo">Post your comments here!</p>
+<textarea rows="4" cols="50" id="textarea1">
+
+</textarea>
+</br>
+
+<input type="text" name="userInput" id="userInput"><br>
+
+
+<button type="button" onclick="calledFromClick()">Post!</button>
+
+<script>
+function calledFromClick()
+{
+
+var jobValue = document.getElementById('userInput').value
+
+document.getElementById("textarea1").value = document.getElementById("textarea1").value +jobValue
+	
+}
+</script>
