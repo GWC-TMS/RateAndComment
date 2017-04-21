@@ -54,7 +54,29 @@
 </h1>
 </div>
 
+<body>
 
+
+<canvas id="myCanvas" width="500" height="400" style="border:1px solid 
+#000000;"/>
+
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "15px Arial";
+ctx.fillText("Welcome to Rate It! If you're new, this is the perfect place to start your",10,50)
+ctx.fillText("adventure! Here's a bit about us and how we made our website:",10,100)
+ctx.fillText("We started out as a small group, but we wanted to make a BIG difference! ",10,150);
+ctx.fillText("We began to learn the basics of coding. Then, after weeks of coding,",10,200);
+ctx.fillText("we finally got assigned our first official project! We worked super hard ",10,250);
+ctx.fillText("and our result was this website! We hope you love our website and",10,300);
+ctx.fillText("enjoy your time here!",10,350);
+</script>
+
+
+</body>
 
 <script>
 function calledFromClick()
@@ -66,3 +88,5 @@ document.getElementById("textarea1").value = document.getElementById("textarea1"
 	
 }
 </script>
+
+
